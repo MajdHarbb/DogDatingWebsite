@@ -13,14 +13,14 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container" style="margin-top:4%;">
 
 
-    <section id="title">
-      <div style="background-color: blueviolet;" class="container-fluid border">
+    <section id="title" style="position: relative;">
+      <div style="background-color: blueviolet; " class="container-fluid border">
         <!-- Nav Bar -->
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="margin-bottom: 4%; margin-top: 4%;">
           <div class="container-fluid"  style="margin-left: 10%;">
             <h1 style="color: white;">MyApp</h1>
 
@@ -29,9 +29,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse top_nav" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto ">
+              <ul class="navbar-nav mx-auto " style="font-weight: bolder; ">
 
-                <li class="nav-item "><a href="#" class="nav-link">Contact</a>
+                <li class="nav-item " ><a href="#" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item "><a href="#" class="nav-link">Pricing</a>
                 </li>
@@ -48,18 +48,19 @@
 
 
 
-
         <!-- Title -->
-        <div class="row border" style="margin-left: 10%;">
-          <div class="col-lg-4 col-md-12 border">
-            <h1 style="color: white;">Meet dog next door.</h1>
+        <div class="row " style="margin-left: 10%;">
+          <div class="col-lg-4 col-md-12 " >
+            <h1 style="color: white; font-weight: bolder;">Meet dog next door.</h1>
+            <button type="button" class="btn btn-dark btn-lg" style="margin-top: 20%; margin-bottom: 10%;"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-secondary border-white btn-lg" style="color: white; margin-top: 20%; margin-bottom: 10%;"><i class="fab fa-google-play"></i> Download</button>
             
-            <button type="button" class="btn btn-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
-            <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
           </div>
+          
 
-          <div class="col-lg-8 border d-flex justify-content-center" >
-            <img src="images/app.png" width="50%" length="50%">
+          <div class="col-lg-8 d-flex justify-content-center" style="position:relative; 
+          overflow:hidden;">
+            <img src="images/app.png" width="30%" style="transform: rotate(25deg); position: absolute;" >
           </div>
         </div>
 
@@ -76,19 +77,19 @@
       <div class="container-fluid border">
         <div class="row border justify-content-center" style="text-align: center;">
           <div class="col-lg-4 col-sm-12 border">
-            <i class="fas fa-check-circle fa-6x" style="color: blueviolet;"></i>
+            <i class="fas fa-check-circle fa-4x" style="color: blueviolet;"></i>
             <h3 style=" font-weight: bold;">Feature1</h3>
             <p>Write soemthing here...</p>
           </div>
 
           <div class="col-lg-4 col-sm-12 border" >
-            <i class="fas fa-bullseye fa-6x" style="color: blueviolet;"></i>
+            <i class="fas fa-bullseye fa-4x" style="color: blueviolet;"></i>
             <br/>
             <h3 style=" font-weight: bold;">Feature2</h3>
             <p>Write soemthing here...</p>
           </div>
           <div class="col-lg-4 col-sm-12 border">
-            <i class="fas fa-heart fa-6x" style="color: blueviolet;"></i>
+            <i class="fas fa-heart fa-4x" style="color: blueviolet;"></i>
             <h3 style=" font-weight: bold;">Feature3</h3>
             <p>Write soemthing here...</p>
           </div>
@@ -107,15 +108,15 @@
 
 
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner" style="margin: auto;">
+          <div class="carousel-inner" style="margin: auto; text-align: center;">
             <div class="carousel-item active">
               <h2>Quote 1. Woof.</h2>
-              <img src="images/dog-img.jpg">
+              <img src="images/dog-img.jpg" style="border-radius: 50%;" width="10%">
               <em>Beirut, Lebanon</em>
             </div>
             <div class="carousel-item">
               <h2>Quote 2. Woof.</h2>
-              <img src="images/dog-img.jpg">
+              <img src="images/dog-img.jpg" style="border-radius: 50%;" width="10%">
               <em>Beirut, Lebanon</em>
             </div>
 
@@ -135,12 +136,62 @@
       </section>
 
       <section id="press">
+        <div class="row"> 
+          <div class="col-lg-6 d-flex justify-content-right col-md-6" style="margin-left: auto;">
+            <img src="images/mtv-logo.png">
+          </div>
 
+          <div class="col-lg-6 d-flex justify-content-left col-md-6">
+            <img src="images/lbci-logo.png">
+          </div>
+        </div>
         
-        <img src="images/mtv-logo.png">
-        <img src="images/lbci-logo.png">
+        
+        
       </section>
     </div>
+
+
+  <div class="container-fluid">
+    <div class="row" style="text-align: center; justify-content: center;">
+      <h1>Packages</h1>
+      <p>something intersting here...</p>
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <h1 style="background-color: gray;">Package1</h1>
+          <div class="card-body">
+            <h5 class="card-title">Free</h5>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button type="button" class="btn btn-outline-secondary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
