@@ -9,3 +9,8 @@
   #PlayStore{
     margin-left: 2%;
   }
+  @media screen and (min-width: 480px) {
+    #imgDiv {position:static;
+             overflow: visible;}
+    #rotImg {position:static;}
+  }
