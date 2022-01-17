@@ -43,8 +43,15 @@
 
 
 
-  @media screen and (min-width: 480px) {
-    #imgDiv {position:static;
-             overflow: visible;}
-    #rotImg {position:static;}
+
+  @media screen and (min-width: 650px) {
+    #imgDiv {
+        position:relative; 
+        overflow:hidden;
+    }
+    #rotImg{
+        transform: rotate(25deg); position: absolute;
+    }
   }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
