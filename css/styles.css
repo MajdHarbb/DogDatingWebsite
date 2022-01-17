@@ -9,6 +9,40 @@
   #PlayStore{
     margin-left: 2%;
   }
+  .coloredBG{
+      background-color: #6a5acd;
+  }
+  .coloredItems{
+    color: 	#6a5acd	;
+
+  }
+  .topCont{
+    margin-top:4%;
+  }
+  .navMargins1{
+    margin-bottom: 4%; margin-top: 4%;
+  }
+  .divMargin1{
+    margin-left: 10%;
+  }
+  .bolderText{
+    font-weight: bolder;
+  }
+  .whiteColor{
+      color: white;
+  }
+  .RelativeSection{
+    position: relative;
+  }
+  .PadRight10{
+    padding-right:10%
+  }
+  .MarginLeft10{
+    margin-left: 10%;
+  }
+
+
+
   @media screen and (min-width: 480px) {
     #imgDiv {position:static;
              overflow: visible;}
