@@ -43,14 +43,31 @@
 
 
 
+  @media screen and (max-width: 600px) {
+ 
+#imgDiv {
+        position:relative; 
+        overflow:hidden;
+    }
+    #rotImg{
+        width:fit-content;
+        height: 500px;
+        display: block;
+    }
+  }
+  
 
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 750px) {
+   
     #imgDiv {
         position:relative; 
         overflow:hidden;
     }
     #rotImg{
-        transform: rotate(25deg); position: absolute;
+        transform: rotate(25deg); 
+        position: absolute;
+        width:30%;
+        display: block;
     }
   }
   
