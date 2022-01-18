@@ -40,12 +40,13 @@
   .topCont{
     margin-top:4%;
   }
- 
+ .PoppinsFont
+ { font-family:'Poppins', sans-serif; }
   .navMargins1{
     margin-bottom: 4%; margin-top: 4%;
   }
   .divMargin1{
-    margin-left: 10%;
+    margin-left: 9%;
   }
   .bolderText{
     font-weight: bolder;
