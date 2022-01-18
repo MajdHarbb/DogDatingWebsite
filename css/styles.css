@@ -1,3 +1,9 @@
+#appleButton{
+  margin-top: 10%; margin-bottom: 30%; margin-right: 4%;
+}
+#PlayStore{
+  color: white; margin-top: 10%; margin-bottom: 30%;
+}
 #appleButton:hover {
     background-color: white; /* Green */
     color: black;
@@ -9,16 +15,32 @@
   #PlayStore{
     margin-left: 2%;
   }
+  .navbaritems{
+    padding-right:10% ;
+  }
+  .ham-toggle{
+    margin-right:5px !important;
+  }
+  .titleMargin{
+    margin-left: 8%;
+  }
   .coloredBG{
-      background-color: #6a5acd;
+      background-color: #674bff;
   }
   .coloredItems{
-    color: 	#6a5acd	;
+    color: 	#674bff	;
 
+  }
+  #features{
+    margin: 5% 5% 5% 5%;
+  }
+  .FooterIcons{
+    padding-right: 3%;
   }
   .topCont{
     margin-top:4%;
   }
+ 
   .navMargins1{
     margin-bottom: 4%; margin-top: 4%;
   }
@@ -54,6 +76,12 @@
         height: 500px;
         display: block;
     }
+    
+  }
+  .card{
+    width: 18rem;
+    margin-bottom: 3%;
+    
   }
   
 
@@ -70,5 +98,9 @@
         display: block;
     }
   }
-  
+  #packageh3{
+    background-color: whitesmoke;
+    padding: 2% 5% 5% 5%;
+
+  }
   /* On screens that are 600px wide or less, the background color is olive */
